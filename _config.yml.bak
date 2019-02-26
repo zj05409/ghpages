@@ -1,0 +1,16 @@
+remote_theme: "mmistakes/minimal-mistakes@4.15.2"
+plugins:
+  - jekyll-include-cache
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
