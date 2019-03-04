@@ -108,10 +108,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "开智学堂编委会"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "开智欢迎你"
+  location         : "北京五道口"
   email            :
   links:
     - label: "Email"
@@ -220,7 +220,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title:output_ext
+permalink: /:title:output_ext
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -264,16 +264,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-#jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+   enabled:
+     - categories
+     - tags
+   layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     category: /categories/#:name
+     tag: /tags/#:name
 
 
 # HTML Compression
@@ -300,6 +300,4 @@ defaults:
 
 collections:
   posts:
-    output          : true
-  student_stories:
     output          : true
