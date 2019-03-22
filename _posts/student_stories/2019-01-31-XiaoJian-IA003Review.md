@@ -5,6 +5,10 @@ author: "小简"
 description: ""
 tags: []
 categories: [student_stories]
+image:
+    feature: abstract-3.jpg
+    credit: 
+    creditlink: 
 ---
 
 ##### 每一个参加过开智课程的同学，如果他愿意在课程上花费一点精力去学习，去做作业，课程结业后，从思维到心智，都会经历一场蜕变。信息分期三期课程刚刚结业，小简同学就告诉我们课程使她发生的最大改变——从僵固型思维过渡到成长型思维，惊喜的还有，小简还因为课程找到了工作呢！让我们一起来听听小简的故事吧！
