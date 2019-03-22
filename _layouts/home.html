@@ -1,13 +1,28 @@
----
-layout: archive
----
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
 
-{{ content }}
+<body id="post-index">
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+{% include browser-upgrade.html %}
+{% include headers.html %}
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+<div id="main" role="main">
+  {{ content }}
+</div><!-- /#main -->
 
-{% include paginator.html %}
+{% include scripts.html %}
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+</body>
+</html>
