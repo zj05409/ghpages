@@ -1,3 +1,12 @@
+---
+layout: post
+title: "为什么明知道早起、储蓄、减肥很好，你却总是坚持不下来？"
+author: "海良"
+description: ""
+tags: []
+categories: [student_articles]
+---
+
 ## 为什么明知道早起、储蓄、减肥很好，你却总是坚持不下来？
 
 海良 开智学堂  

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "用写作寻找美与意义 | 认知写作学三期结业啦"
+title: "用写作寻找美与意义——认知写作学三期结业啦"
 author: "开智学堂"
 description: "写作发掘的不仅是创作的本身，更是人的意义。"
 tags: [course]

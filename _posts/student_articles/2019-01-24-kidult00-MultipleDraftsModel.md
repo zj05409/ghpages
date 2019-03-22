@@ -1,3 +1,12 @@
+---
+layout: post
+title: "人生和职业可以被规划吗？一起换个角度重新看问题"
+author: "kidult00"
+description: ""
+tags: []
+categories: [student_articles]
+---
+
 ## 人生和职业可以被规划吗？一起换个角度重新看问题
 
 kidult00 开智学堂  

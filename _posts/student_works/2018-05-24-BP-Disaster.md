@@ -1,3 +1,12 @@
+---
+layout: post
+title: "如果灾难可以体验，你想来吗？"
+author: "开智学堂"
+description: ""
+tags: []
+categories: [student_works]
+---
+
 ##  如果灾难可以体验，你想来吗？
 
 开智学堂 [开智学堂](javascript:void(0);) *1周前*

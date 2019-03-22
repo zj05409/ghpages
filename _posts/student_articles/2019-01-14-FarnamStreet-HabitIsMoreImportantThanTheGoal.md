@@ -1,6 +1,11 @@
-# 为什么习惯比目标更重要？
-
-##### Farnam Street  开智学堂  
+---
+layout: post
+title: "为什么习惯比目标更重要？"
+author: "Farnam Street"
+description: ""
+tags: []
+categories: [student_articles]
+---
 
 奥克塔维亚·布特勒（Octavia Butler）说过：「忘掉灵感吧，习惯更可靠。不管你有没有灵感，习惯都会支持你继续，习惯是实践中的坚持。」新年伊始，大家都忙着制定目标，然而本文作者告诉你，制定一个完美的目标，不如养成良好的习惯。
 

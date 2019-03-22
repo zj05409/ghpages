@@ -1,7 +1,11 @@
-
-# 判断出错啦？用心智小阶梯自检下吧
-
-Trevor Maber  开智学堂 
+---
+layout: post
+title: "判断出错啦？用心智小阶梯自检下吧"
+author: "Trevor Maber"
+description: ""
+tags: []
+categories: [student_articles]
+---
 
 ##### 我们的心智是如何运作的？每次思考、做决定前，我们的大脑经历了什么？为什么我们会对一些事情做出错误判断？又该如何避免？在 Trevor Maber 主讲的 TED 视频中，可以找到答案。
 
