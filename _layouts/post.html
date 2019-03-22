@@ -23,7 +23,7 @@
             </div>
         {% else %}
             <div class="entry-image-index">
-              <img src="{{ site.url }}/images/abstract-{{ site.time | random_number: 1, 12 }}.jpg" alt="{{ page.title }}">
+              <img src="{{ site.url }}/images/abstract-{{ 100 | random_number: 1, 12 }}.jpg" alt="{{ page.title }}">
               {% if page.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
             </div>
         {% endif %}
