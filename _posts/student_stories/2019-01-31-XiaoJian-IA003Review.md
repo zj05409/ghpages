@@ -6,7 +6,7 @@ description: ""
 tags: []
 categories: [student_stories]
 image:
-    feature: 
+    feature: abstract-{{ page.title | random_number: 1, 12 }}.jpg
     credit: 
     creditlink: 
 ---
