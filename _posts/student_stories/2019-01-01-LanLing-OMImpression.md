@@ -1,8 +1,11 @@
 ---
+layout: post
+title: "这7位少年，为开智描绘了画像"
+author: "一休"
+description: ""
+tags: []
+categories: [student_stories]
 ---
-# 这 7 位少年，为开智描绘了画像
-
-原创： 一休 [开智学堂](javascript:void(0);)
 
 ##### 树木临水照见自己的模样，我在你们眼中看到我的样子！
 
