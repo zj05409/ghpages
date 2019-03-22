@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://w.openmindclub.com
+url: http://www.thycoder.com
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -28,8 +28,10 @@ menu:
       - title: '课程提醒'
         url: '/tags/#'    
       - title: '教学理念'
-        url: '/tags/#'           
+        url: '/tags/#'         
   - title: '学员故事'
+    url: '/categories/#student_stories'         
+  - title: '学员故事(old)'
     url: '/categories/#story'
   - title: '学员作品'
     url: '#'
