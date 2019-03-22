@@ -23,7 +23,9 @@
             </div>
         {% else %}
             <div class="entry-image-index">
-              <img src="{{ site.url }}/images/abstract-{{ [ '1','2','3','4','5','6','7','8','9','10','11','12] | sample }}.jpg" alt="{{ page.title }}">
+              {% assign numbers = "1","2","3","4","5","6","7","8","9","10","11","12" %}
+              <img src="{{ site.url }}/images/abstract-{{ [ '1','2','3','4','5','6','7','8','9','10','11','12'] | sample }}.jpg" alt="{{ page.title }}">
+              <img src="{{ site.url }}/images/abstract-{{ numbers | sample }}.jpg" alt="{{ page.title }}">
               {% if page.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
             </div>
         {% endif %}
