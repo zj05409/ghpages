@@ -6,7 +6,7 @@ description: ""
 tags: []
 categories: [student_stories]
 image:
-    feature: 
+    feature: feature/connor-jalbert-1450990-unsplash.jpg
     credit: 
     creditlink: 
 ---
