@@ -7,8 +7,6 @@ tags: []
 categories: [student_stories]
 ---
 
-原创： 丁倩 [开智学堂](javascript:void(0);) *8月31日*
-
 ##### [认知写作学六期](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=2651938170&idx=1&sn=dd50384bdb763db419b87061bb5b64f6&chksm=8bcf1b62bcb892742abd171be662b0bde29a0a40e0f86daff4874056bbf28db95535464ce476&scene=21#wechat_redirect)虽然结束了，但是大家一起书写的故事，将会一直一直留传下去。还记得结业项目中，有一个叫做“止语写作营”，并被评为本期课程的最佳结业项目。这个项目从诞生到最终呈现，都经历了什么？背后又有怎样的故事？来看“止语写作营”队长的结业复盘。
 
 ![img](https://mmbiz.qpic.cn/mmbiz_jpg/ice5enJHe2TiaVehUUN57fS6CI73xPdBeBiabz6e80mgrjV3UXzvrDm9paicAlOU349LbibvK5dia8eYq2pz8YDpRiasQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)

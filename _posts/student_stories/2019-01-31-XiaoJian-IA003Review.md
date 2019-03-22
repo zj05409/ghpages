@@ -6,7 +6,7 @@ description: ""
 tags: []
 categories: [student_stories]
 image:
-    feature: abstract-3.jpg
+    feature: 
     credit: 
     creditlink: 
 ---
