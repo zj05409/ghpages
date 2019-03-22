@@ -7,7 +7,8 @@
 {% include head.html %}
 </head>
 
-<body id="post" {% if page.image.feature %}class="feature"{% endif %}>
+<!-- <body id="post" {% if page.image.feature %}class="feature"{% endif %}> -->
+<body id="post" class="feature">
 
 {% include browser-upgrade.html %}
 {% include header.html %}
@@ -18,6 +19,11 @@
         {% if page.image.feature %}
             <div class="entry-image-index">
               <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+              {% if page.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+            </div>
+        {% else %}
+            <div class="entry-image-index">
+              <img src="{{ site.url }}/images/abstract-{{ site.time | random_number: 1, 12 }}.jpg" alt="{{ page.title }}">
               {% if page.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
             </div>
         {% endif %}
