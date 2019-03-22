@@ -6,7 +6,7 @@ description: ""
 tags: []
 categories: [student_stories]
 image:
-    feature: 
+    feature: abstract-{{ '1','2','3','4','5','6','7','8','9','10','11','12' | sample }}.jpg
     credit: 
     creditlink: 
 ---
