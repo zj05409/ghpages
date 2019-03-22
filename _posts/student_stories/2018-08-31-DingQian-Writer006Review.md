@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "从差点放弃到最佳项目，他们曾连续十多天奋斗在凌晨三点的夜里"
-author: ""
+author: "丁倩"
 description: ""
 tags: []
 categories: [student_stories]
