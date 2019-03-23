@@ -29,7 +29,7 @@
               <h1>{{page.title | size}}</h1>
               <h1>{{page.title | size | modulo: numbersSize}}</h1>
               <h1>{{numbersNew[page.title | size | modulo: numbersSize | plus: 1]}}</h1>
-              <img src="{{ site.url }}/images/abstract-{{ numbersNew[page.title | size | modulo: numbersSize] | plus: 1 }}.jpg" alt="{{ page.title }}">
+              <img src="{{ site.url }}/images/abstract-{{ numbersNew[page.title | size | modulo: numbersSize | plus: 1 ]}}.jpg" alt="{{ page.title }}">
               {% if page.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
             </div>
         {% endif %}
