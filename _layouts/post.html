@@ -25,14 +25,17 @@
             <div class="entry-image-index">
               {% assign numbers = "1|2|3|4|5|6|7|8|9|10|11|12" | split "|" %}
               {% assign numbersNew = "1,2,3,4,5,6,7,8,9,10,11,12" | split "," %}
+              {% assign my_array = "apples, oranges, peaches, plums" | split: ", " %}
+
+              <h1>{{ my_array | size }}</h1>
               <!-- {% assign numbersSize = numbers | size %} -->
               {% assign numbersSize = numbersNew | size %}
               <h1>{{ numbersNew | size }}</h1>
-              <h1>{{page.title | size}}</h1>
+              <!-- <h1>{{page.title | size}}</h1>
               <h1>{{page.title | size | modulo: numbersSize}}</h1>
               <h1>{{numbersNew[page.title | size | modulo: numbersSize]}}</h1>
               <h1>{{numbersNew[page.title | size | modulo: numbersSize] | plus: 1}}</h1>
-              <img src="{{ site.url }}/images/abstract-{{ numbersNew[page.title | size | modulo: numbersSize] | plus: 1 }}.jpg" alt="{{ page.title }}">
+              <img src="{{ site.url }}/images/abstract-{{ numbersNew[page.title | size | modulo: numbersSize] | plus: 1 }}.jpg" alt="{{ page.title }}"> -->
               {% if page.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
             </div>
         {% endif %}
