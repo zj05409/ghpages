@@ -1,0 +1,10 @@
+- name: 最近动态
+  link: /rencent_article/
+- name: 学员故事
+  link: /blog/
+- name: 学员作品
+  link: /work/
+- name: 原创好文
+  link: /good/
+- name: 归档
+  link: /categories/

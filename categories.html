@@ -1,29 +1,43 @@
 ---
-layout: home
-title: Blog Categories
-description: "An archive of posts sorted by category."
-comments: false
+title: 开智校友博客
 ---
 
-{% capture site_cats %}{% for cat in site.categories %}{{ cat | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-{% assign cats_list = site_cats | split:',' | sort %}
+<div class="wrap-categories">
+  <section class="category">
+    <h3>最新动态</h3>
+    {% for post in site.posts %} {% if post.categories[0] == '最新动态'%}
+    <div>
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    </div>
+    {% endif%} {% endfor%}
+  </section>
 
-<ul class="entry-meta inline-list">
-  {% for item in (0..site.categories.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ cats_list[item] | strip_newlines }}{% endcapture %}
-  	<li><a href="#{{ this_word }}" class="tag"><span class="term">{{ this_word }}</span> <span class="count">{{ site.categories[this_word].size }}</span></a></li>
-  {% endunless %}{% endfor %}
-</ul>
+  <section class="category">
+    <h3>学员故事</h3>
+    {% for post in site.posts %} {% if post.categories[0] == '学员故事'%}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endif%} {% endfor%}
+  </section>
 
-{% for item in (0..site.categories.size) %}{% unless forloop.last %}
-  {% capture this_word %}{{ cats_list[item] | strip_newlines }}{% endcapture %}
-  <span class="anchor-bookmark" id="{{ this_word }}"></span>
-	<article>
-	<h2 class="tag-heading">{{ this_word }}</h2>
-		<ul>
-    {% for post in site.categories[this_word] %}{% if post.title != null %}
-      <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}
-		</ul>
-	</article><!-- /.hentry -->
-{% endunless %}{% endfor %}
+  <section class="category">
+    <h3>学员作品</h3>
+    {% for post in site.posts %} {% if post.categories[0] == '学员作品'%}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endif%} {% endfor%}
+  </section>
+
+  <section class="category">
+    <h3>原创好文</h3>
+    {% for post in site.posts %} {% if post.categories[0] == '原创好文'%}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endif%} {% endfor%}
+  </section>
+</div>

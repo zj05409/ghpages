@@ -4,7 +4,7 @@ title: "开智抖音公开课——春节聚会如何玩转抖音？"
 author: "一休"
 description: ""
 tags: []
-categories: [recent_activities]
+categories: [最新动态]
 ---
 
 翻越千山万水，经历铁人三项赛般的春运之旅，终于回到熟悉的家乡。一桌热乎乎的饭菜，一张张亲人的笑脸，辛苦奔波一整年，此刻终于团聚在一起，如此浓情美好画风怎能不拿起手机记录留念？只是除了千年剪刀手、一字排开阵容，万年不变全家福，全家老少还有啥新玩法吗？
@@ -16,13 +16,13 @@ categories: [recent_activities]
 
 我们选择了刷起来就停不下来的「抖音」，录制了课程，想与你共同「解锁家庭视频拍摄技能」：帮你提高觉察，记录生活美好瞬间；巧妙设计反转，让你在抖音时代更有机会赢得 15 秒成名时间。欢迎你们参与哦！
 
-## 讲师介绍 
+## 讲师介绍
 
 ![img](https://mmbiz.qpic.cn/mmbiz_jpg/ice5enJHe2TiahosjrzykDu4CSLl3sjoUJOscaeibNibd3hLnQEiaKlZWp2OJeaVA0dgpgAI2CvpMm9c5FXZAOzKbjA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
 
 **雷宗扬**
 
-- 玩转抖音，一周抖音粉丝过 20w 
+- 玩转抖音，一周抖音粉丝过 20w
 - 有 6 年兽医经验
 - 36 氪职场栏目特约撰稿人
 - 安人书院作者

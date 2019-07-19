@@ -4,7 +4,7 @@ title: "成为信息赢家——信息分析三期结业啦！"
 author: "一休"
 description: ""
 tags: []
-categories: [recent_activities]
+categories: [最新动态]
 ---
 
 2019 年 1 月 27 日下午，开智学堂信息分析三期顺利结业。 200 + 名同学涉足信息丛林，经过 7 周的课程学习，掌握可任意迁移各领域的「信息分析核心框架」，获得寻找优质信息源的路径方法，从赤手空拳的新手小白迅速成为手持信息分析利器的信息猎人，同侪互激一路狂奔，最终提交出 19 份精彩的结业项目。
@@ -19,9 +19,9 @@ categories: [recent_activities]
 
 开班至第三期，累积参与人数已超 600 人，本期课程 200+ 小伙伴提交了近 300 份作业，教练团贡献 7 次线上精彩答疑，进入最后一讲的同学达到 70% ！无论是项目质量还是学员口碑，信息分析三期都刷新过往课程的记录。所有结业项目，之前都有路演直播介绍，欢迎点击以下链接了解哦：
 
-- [49个围观名额，抢！信息分析三期路演来啦](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=2651939923&idx=1&sn=534da6d8f7d8371e64f381442423b321&chksm=8bcf224bbcb8ab5d3a90143ccc69c7255778a2be821bdae7848278f012bb7398efb564600adb&scene=21#wechat_redirect)
+- [49 个围观名额，抢！信息分析三期路演来啦](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=2651939923&idx=1&sn=534da6d8f7d8371e64f381442423b321&chksm=8bcf224bbcb8ab5d3a90143ccc69c7255778a2be821bdae7848278f012bb7398efb564600adb&scene=21#wechat_redirect)
 - [观众席仅剩 20 位，邀你围观信息分析最后一天路演！](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=2651939940&idx=2&sn=4d0b1b1f0d809710d45fbb055a4863d0&chksm=8bcf227cbcb8ab6ac1752200cfafbba585078fc749ca204a9b69e56c4d02316dd4fd3476da65&scene=21#wechat_redirect)
-- [燃！3天19支队伍600人围观，信息分析三期结业路演发生了什么？](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=2651939960&idx=2&sn=9da6011008018fdb77c0467e530fb817&chksm=8bcf2260bcb8ab767e043150ea3b9ad92870bc8fb55ef7ce0e5355bcf9f51f80b28ba74adea7&scene=21#wechat_redirect)
+- [燃！3 天 19 支队伍 600 人围观，信息分析三期结业路演发生了什么？](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=2651939960&idx=2&sn=9da6011008018fdb77c0467e530fb817&chksm=8bcf2260bcb8ab767e043150ea3b9ad92870bc8fb55ef7ce0e5355bcf9f51f80b28ba74adea7&scene=21#wechat_redirect)
 
 ## 教练分享
 
