@@ -4,7 +4,7 @@ title: "为什么习惯比目标更重要？"
 author: "Farnam Street"
 description: ""
 tags: []
-categories: [student_articles]
+categories: [原创好文]
 ---
 
 奥克塔维亚·布特勒（Octavia Butler）说过：「忘掉灵感吧，习惯更可靠。不管你有没有灵感，习惯都会支持你继续，习惯是实践中的坚持。」新年伊始，大家都忙着制定目标，然而本文作者告诉你，制定一个完美的目标，不如养成良好的习惯。
@@ -55,7 +55,7 @@ categories: [student_articles]
 
 习惯可让事情变得简单。正如杜希格（Duhigg）所写的那样：
 
->习惯强大而精妙。他们可被刻意设计，也可游离意识行动。他们经常未经大脑允许启动，重塑你的零碎行为与思想。习惯带来的改变远超过我们的想象，他们会让大脑不顾一切，甚至违背常识，跟随其行事。
+> 习惯强大而精妙。他们可被刻意设计，也可游离意识行动。他们经常未经大脑允许启动，重塑你的零碎行为与思想。习惯带来的改变远超过我们的想象，他们会让大脑不顾一切，甚至违背常识，跟随其行事。
 
 经过约 30 天的练习，习惯形成，大脑也会改变，目的是让行动变得简单。
 
@@ -100,6 +100,6 @@ categories: [student_articles]
 
 原题：Habits vs Goals : A Look at the Benefits of a Systematic Approach to Life
 
-出处：http://t.cn/RSWrKTr   
+出处：http://t.cn/RSWrKTr
 
 翻译：开智学堂

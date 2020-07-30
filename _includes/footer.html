@@ -1,1 +1,15 @@
-<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll.</span>
+{% assign post = include.post %}
+<li class="blog-post">
+  <h2>
+    <a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a>
+  </h2>
+  {% include post-title.html post=post %}
+  <div class="post-content">
+    {{ post.excerpt }}
+    <div class="button">
+      <a id="readmore" href="{% include relative-src.html src=post.url %}"
+        >阅读更多</a
+      >
+    </div>
+  </div>
+</li>

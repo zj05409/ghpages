@@ -4,18 +4,16 @@ title: "为什么明知道早起、储蓄、减肥很好，你却总是坚持不
 author: "海良"
 description: ""
 tags: []
-categories: [student_articles]
+categories: [原创好文]
 ---
 
 ## 为什么明知道早起、储蓄、减肥很好，你却总是坚持不下来？
 
-海良 开智学堂  
+海良 开智学堂
 
 ##### 为啥即使把信用卡速冻在冰箱，也无法断绝自己买买买的心？面对诱惑和冲动，存钱失败、减肥失败，甚至连早起这样的小事也会失败，是不是因为我们缺乏强大的意志力呢？本文告诉你实际上这和毅力无关。那背后的深层原因到底是什么？又如何用正确的方法来解决？一起来听开智校友海良的思考。
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/ice5enJHe2Tia7kibaVBlicScia5OTtksXyHZds1fypPAwrus2cBy5RJn21vrmOf0j3cAKNrIcDDfM109VyJibLAqsqA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)**1**
-
-
 
 托尼•罗宾斯在 2014 年出版《MONEY Master the Game》之前，曾专程去普林斯顿大学，询问《漫步华尔街》的作者、著名经济学家伯顿·麦基尔有关投资的问题。这些问题包括：在投资生涯的各个阶段，面临那些投资陷阱，人们应该如何应对？人们投资过程中会遇到哪些误区等等。
 
