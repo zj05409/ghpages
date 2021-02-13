@@ -1,41 +1,21 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-{% include head.html %}
-</head>
+---
+layout: default
+---
 
-<body id="page">
+<!-- 这里进行图片的换取 -->
+<!-- 输入：数据在images里面 -->
+<!-- 处理: 数组随机遍历 Liquid语法 唯一更改的地方是一个地方-->
+<!-- 输出 -->
+<!-- 语句+变量 -->
+<!-- 需要url里面变为变量，里面需要语句 -->
 
-{% include browser-upgrade.html %}
-{% include header.html %}
-
-<div id="main" role="main">
-  <article class="hentry">
-    <div class="entry-content">
-      {{ content }}
-      <footer class="entry-meta">
-        {% if page.modified %}<span>Updated on <span class="entry-date date published updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>
-        {% endif %}
-        <!--
-        {% if page.share == true %}{% include social-share.html %}{% endif %}
-        -->
-      </footer>
-    </div><!-- /.entry-content -->
-    <!-- {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section>{% endif %}
-    -->
-  </article>
-</div><!-- /#main -->
-
-{% include scripts.html %}
-
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
-
-</body>
-</html>
+<section class="hero" id="randomImage">
+  >
+  <div class="inner-hero text-container">
+    <div class="hero-text-container">
+      <h1>{{ page.title }}</h1>
+      <p class="subtext">{{ page.description }}</p>
+    </div>
+  </div>
+</section>
+{{ content }}

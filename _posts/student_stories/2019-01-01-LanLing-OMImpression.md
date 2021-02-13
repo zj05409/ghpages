@@ -4,7 +4,7 @@ title: "这7位少年，为开智描绘了画像"
 author: "一休"
 description: ""
 tags: []
-categories: [student_stories]
+categories: [学员故事]
 ---
 
 ##### 树木临水照见自己的模样，我在你们眼中看到我的样子！

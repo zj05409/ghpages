@@ -1,125 +1,116 @@
-title:            开智校友
-description:      开智校友会官方博客
+# ----
+# Site
 
-# put your disqus here
+title: ""
+url: "https://brave-submarine.cloudvent.net"
+baseurl:
+google_analytics_key:
+google_maps_javascript_api_key:
 disqus_shortname:
-reading_time:     true # if true, shows the estimated reading time for a post
-words_per_minute: 200
-logo:             images/logo.png # logo visible in the topbar
-excerpt_separator: <!--more-->
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
 
-url: http://www.thycoder.com
-
-# draw your top menu here
-# each item must have a title and a url.
-#   To list post categories. use type: 'categories'
-#   To create sub categories. add a submenu item
-# See the example
-menu:
-  - title: '首页'
-    url: '/'
-  # - title: '公告'
-  #   url: '/categories/#announce'
-  #   submenu:
-  #     - title: '开课通知'
-  #       url: '/tags/#'
-  #     - title: '课程提醒'
-  #       url: '/tags/#'    
-  #     - title: '教学理念'
-  #       url: '/tags/#'         
-  - title: '学员故事'
-    url: '/categories/#student_stories' 
-  - title: '学员作品'
-    url: '/categories/#student_works'  
-  - title: '原创好文'
-    url: '/categories/#student_articles'  
-  - title: '最新动态'
-    url: '/categories/#recent_activities'          
-  # - title: '学员故事'
-  #   url: '/categories/#story'
-  # - title: '学员作品'
-  #   url: '#'
-  #   submenu:
-  #     - title: '学员 BP 展示'
-  #       url: '/tags/#BP'
-  #     - title: '优秀学员习作'
-  #       url: '/tags/#homework' 
-  #     - title: '优秀学员笔记'
-  #       url: '/tags/#note'   
-  # - title: '阳志平谈写作'
-  #   url: '/categories/#column'
-  - title: '归档'
-    url: '/categories'
-    type: 'categories'    
-
-# Owner/author information
-owner:
-  name:           Openmind Course Team
-  
-  site:           
-  avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          
-  # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
-  # GitHub nick for use in follow button in author block.
-  github: aron-bordin
-
-# Twitter account associated with the site if different from owner/author twitter account.
-# Used in Twitter cards.
-twitter:
-
-# Social networking links used in author block underneath posts. Update and remove as you like.
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: App marketing template for Jekyll.
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
 social:
-  - title: "github"
-    url: "https://github.com/aron-bordin"
-  - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+  name: ""
+  links:
+    - https://github.com/CloudCannon/frisco-jekyll-template
 
-# Background image to be tiled on all pages
-background:
+# -----
+# Build
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+timezone: Etc/UTC
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-locale:      en_US
-future:      true
-highlighter: rouge
-markdown:    kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
+permalink: pretty
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
 
-# Amount of post to show on home page
-paginate: 5
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
 
-# if true, shows the floatting share buttons
-float_share: true
+collections:
+  staff_members:
+    _hide_content: true
+    _icon: account_circle
 
-# Octopress
-# Default extensions
-post_ext: md
-page_ext: md
-# Found in _templates/
-post_layout: post
-page_layout: page
-# Format titles with titlecase?
-titlecase: true
+paginate: 10
+paginate_path: "/blog/:num/"
 
-include: [".htaccess"]
-exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-# gems: [jekyll-paginate,jekyll-random]
-gems: [jekyll-paginate]
-theme: neo-hpstr-jekyll-theme
+jekyll-archives:
+  enabled: ["categories"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "staff_members"
+    values:
+      _options:
+        image_path:
+          width: 440
+          height: 440
+          uploads_dir: "/images/staff_members"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        image:
+          width: 2000
+          height: 1322
+          resize_style: cover
+          uploads_dir: "/images/post_uploads"
+        content:
+          width: 1500
+          height: 2000
+          uploads_dir: "/images/post_uploads"
+  - scope:
+      path: "contact-success.html"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      image:
+        width: 2000
+        height: 1322
+        resize_style: cover
+      bottom_image:
+        width: 2000
+        height: 1322
+        resize_style: cover
+
+# -----------
+# CloudCannon
+
+social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - Email
+  - RSS
+
+_comments:
+  description: Text shown when sharing on social media
+  blurb: Short bio or description of this person

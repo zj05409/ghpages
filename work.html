@@ -1,0 +1,59 @@
+---
+title: 开智博客
+image: /images/category/article.jpg
+---
+
+<section
+  class="hero"
+  style="background-image: url({% include relative-src.html src=page.image %})"
+>
+  <div class="inner-hero text-container">
+    <div class="hero-text-container">
+      <h1 class="editable">学员作品</h1>
+      <p class="subtext editable"></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="text-container">
+    <p class="editor-link">
+      <a href="cloudcannon:collections/_posts" class="btn"
+        ><strong>&#9998;</strong> Add Post</a
+      >
+    </p>
+    <!-- 读懂这个语法标签就可以了，然后分类，展示嘛，也就是过滤嘛 -->
+    <!-- 模板语法执行代表什么 -->
+    <!-- include list-post.html 引用一小段代码-->
+    <ul class="blog-posts">
+      <!-- 只不过是模板语言做一个数据处理而已 -->
+      {% for post in site.posts %} {% if post.categories[0] == '学员作品' %} {%
+      include footer.html post=post %} {% endif%} {% endfor%}
+    </ul>
+
+    <!-- 底部分页栏 -->
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+      <a
+        href="{{ site.baseurl }}{{ paginator.previous_page_path }}"
+        class="previous btn"
+        >&larr; Newer posts</a
+      >
+      {% endif %}
+
+      <span class="page_number "
+        >{{ paginator.page }} of {{ paginator.total_pages }}</span
+      >
+
+      {% if paginator.next_page %}
+      <a
+        href="{{ site.baseurl }}{{ paginator.next_page_path }}"
+        class="next btn"
+        >Older posts &rarr;</a
+      >
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</section>
